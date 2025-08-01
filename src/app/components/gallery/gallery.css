@@ -1,0 +1,32 @@
+.gallery__img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.gallery__img-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.gallery__img-box::after {
+  content: "+";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+  background-color: rgba(26, 188, 156, 0.544);
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.gallery__img-box:hover::after {
+  opacity: 1;
+}

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #2c3e50;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__icon {
+  text-decoration: none;
+  color: green !important;
+}
+
+.copyright {
+  min-height: 80px;
+}

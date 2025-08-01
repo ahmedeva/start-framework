@@ -1,0 +1,9 @@
+.home {
+  min-height: calc(95vh - 100px);
+  background-color: #1abc9c;
+}
+
+.home__img {
+  display: block;
+  max-width: 250px;
+}

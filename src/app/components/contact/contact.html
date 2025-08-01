@@ -1,0 +1,50 @@
+<section class="contact">
+  <app-line
+    class="mt-5"
+    [heading]="'Contact Section'"
+    [color]="'text-dark'"
+    [lineBgColor]="'bg-dark'"
+    [customIcon]="iconStar"
+  ></app-line>
+  <div class="container">
+    <form action="/">
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingName"
+          placeholder="John Doe"
+        />
+        <label for="floatingName">Enter Your Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="number"
+          class="form-control"
+          id="floatingAge"
+          placeholder="age: 23"
+        />
+        <label for="floatingAge">Enter Your Age</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingEmail"
+          placeholder="email@example.com"
+        />
+        <label for="floatingEmail">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+        />
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button class="btn text-light mt-3 fs-5">Send Message!</button>
+    </form>
+  </div>
+</section>

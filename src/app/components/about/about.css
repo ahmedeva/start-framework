@@ -1,0 +1,4 @@
+.about {
+  background-color: #1abc9c;
+  min-height: calc(95vh - 100px);
+}
