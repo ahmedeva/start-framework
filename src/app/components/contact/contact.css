@@ -1,7 +1,9 @@
 .contact {
   min-height: calc(95vh - 100px);
+  margin-top: 2rem;
 }
 
 form button {
   background-color: #1abc9c;
 }
+
